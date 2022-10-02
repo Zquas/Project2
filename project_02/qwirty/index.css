@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url('Dosis-VariableFont_wght.ttf');
+}
+
+body{
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+  
+header, footer { 
+    flex: none; 
+}
+  
+main {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+/*
+/* to collapse and design view for mobile
+@media screen and (max-width: 550px){
+    .hamburger{
+        display: block; 
+}
+    nav{
+        display: none;
+}
+}
+
+
+header{
+    box-sizing: border-box;
+    border-style: solid;
+    width: 99%;
+    font-size: 25pt;
+    overflow: auto;
+}
+
+/*puts a space between objects
+header site{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    top: 0;
+}
+
+li{
+    display: block;
+
+}
+
+.links{
+    text-align: right;
+}
+
+main{
+    flex: 1;
+}
+
+html, body{
+    height: 100vh;
+}
+
+/* puts items in a row if "row" input
+body{
+    display: flex;
+    flex-direction: column ;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    box-sizing: border-box;
+    border-style: solid;
+    overflow: auto;
+}
+
+footer img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+footer li{
+    background:white;
+}
+*/

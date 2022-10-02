@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Dosis;
+    src: url('Dosis-VariableFont_wght.ttf');
+}
+
+body{
+    background-color: snow;
+}
+
+.categories{
+    display: flex;
+    flex: 0 1 256px;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.categories a{
+    text-decoration: none;
+    background: #44b;
+    color: white;
+    font-family: 'Dosis';
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 1em 0.5em;
+    padding: 1em;
+}
+
+a:hover{
+    box-shadow: 0 2px 5px -2px black;
+}
